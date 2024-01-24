@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As mudanças climáticas</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color: #70160e;">
+          <a class="navbar-brand" href="index.html" style="color: #e1e3db;">Index</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="aqglo.html" style="color: #e1e3db;">O que é aquecimento global?</a>
+              <a class="nav-link" href="ebulicao.html"  style="color: #e1e3db;">Ebulição Global</a>
+              <a class="nav-link" href="efeitoc.html"  style="color: #e1e3db;">Efeitos da mudança climática</a>
+              <a class="nav-link" href="rever.html"  style="color: #e1e3db;">Como reverter o aquecimento?</a>
+              <a class="nav-link" href="estufa.html"  style="color: #e1e3db;">Efeito Estufa</a>
+              <a class="nav-link" href="ozonio.html"  style="color: #e1e3db;">Camada de Ozônio</a>
+              <a class="nav-link" href="formulario.html"  style="color: #e1e3db;">Registre-se</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <aside class="left"></aside>
+
+      <aside class="right"></aside>
+
+      <br>
+      <h1>Registre-se</h1>
+      <br><br>
+
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Primeiro Nome</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Sobrenome</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Estado</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Escolha</option>
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Pará</option>
+            <option>Roraima</option>
+            <option>Rondônia</option>
+            <option>Acre</option>
+            <option>Santa Catarina</option>
+            <option>Espírito Santo</option>
+            <option>Amazonas</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>Bahia</option>
+            <option>Ceará</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Piauí</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+       
+        </div>
+        <br>
+        
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+       
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+                Concorde com os termos e condições
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </form>
+
+      <table class="table">
+          
+      </table>
+
+      <br><br><br><br><br><br><br><br><br><br><br>
+ 0     <footer>
+        <summary align="center">
+            <details>
+                <a href="sobre.html">Sobre</a>
+            </details>
+        </summary>
+    </footer>
+</body>
+</html>
